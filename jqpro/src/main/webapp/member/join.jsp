@@ -91,7 +91,7 @@
 
 	})
 	// 검색결과에서 선택하여 부모창에 입력 
-	$(document).on('click', '.ziptr', function(){
+ 	$(document).on('click', '.ziptr', function(){
 		zipcode = $('td:eq(0)', this).text();
 		addr = $('td:eq(1)',this).text();
 		
